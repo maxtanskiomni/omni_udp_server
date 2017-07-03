@@ -1,0 +1,23 @@
+{
+  "name": "omni_gprs_server",
+  "version": "1.0.0",
+  "description": "GPS/GPRS data parser API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": "https://github.com/maxtanskiomni/omni_udp_server.git",
+  "author": "Max Tanski",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^4.0.0",
+    "node-schedule": "^1.2.3",
+    "nodemon": "^1.11.0",
+    "request": "^2.81.0",
+  },
+  "engines":{
+    "node": "6.10.1"
+  },
+}
